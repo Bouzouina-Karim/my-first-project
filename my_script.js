@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #2e3a59;
+    padding: 1rem;
+    color: aliceblue;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+
+
+
+#hero {
+    background-color: antiquewhite;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+#pic {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 212, 191);
+    border-radius: 50px;
+    margin: 1rem auto;
+
+}
+
+#about {
+    padding:2rem;
+    background-color: bisque;
+}
+
+
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #fff0f5;
+    
+}
+
+#card{
+    min-width: 200px;
+    background-color: #fff0f5;
+    box-shadow: 0 2px 6px grey;
+    border-radius: 10px;
+    padding: 1rem;
+    flex: 1 1 30%;
+}
+
+footer {
+    background-color: rgb(51, 46, 46);
+    color: #fff0f5;
+    text-align: center;
+    padding: 1rem;
+}
+#contact {
+    padding: 2rem;
+    background-color: #fff0f5;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
